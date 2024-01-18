@@ -14,8 +14,16 @@ class Calculator {
 
 int main()
 {
+    Calculator theCalculator;
+    theCalculator.printTheWelcomeMessage();
+    
+    int firstDigit;
+    std::cout << "Enter the first digit: ";
+    std::cin >> firstDigit;
 
-    while (1) {
 
-    }
+    std::cout << "The digit you entered was " << firstDigit << std::endl;
+
+
+
 }
